@@ -31,11 +31,18 @@ You can read more about this topic [in the final report this code was created fo
 
 - Component Size Analysis: Records and averages the size of the connected component containing the origin as edge probability p varies
 
+![Cube Lattice](Figures/cube_lattice.png)
+
 ## How to Run
+
+Python is required to run this project. To install the necessary libraries, first run
+```
+pip install -r requirements.txt
+```
 
 - **Interactive**: Contains the code for interactive simulations such as
   -  `InteractiveGraph.py` which simulates bond percolation on the square, triangle, and cube lattices, and
-  -  `CompleteGraphs.py` which simulates bond percolations on a complete graph (a.k.a., the Erdős–Rényi model)
+  -  `CompleteGraphs.py` which simulates bond percolation on a complete graph (a.k.a., the Erdős–Rényi model)
 
 - **GenerateData**: Contains scripts to simulate bond percolation on different lattices and generate `.csv` files containing this data
 - **PlotEstimates**: Contains scripts to plot calculated estimates alongside the known values of $p_c$
